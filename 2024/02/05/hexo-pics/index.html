@@ -8,12 +8,12 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>hexo-pics | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="如何解决hexo图片不显示问题（以vscode为例）  新建一个markdown文件hexo-pics.md；其中图片分为截图和复制两种形式。 安装vscode插件Paste Image，设置：  1234basepath&#x3D;$&#123;currentFilePath&#125;&#x2F;hexo-pics path&#x3D;$&#123;currentFilePath&#125;&#x2F; Insert Pattern">
+  <meta name="description" content="如何解决hexo图片不显示问题（以vscode为例） 新建一个markdown文件hexo-pics.md；其中图片分为截图和复制两种形式。 安装vscode插件Paste Image，设置：1234basepath&#x3D;$&#123;currentFilePath&#125;&#x2F;hexo-pics path&#x3D;$&#123;currentFilePath&#125;&#x2F; Insert Pattern:![">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo-pics">
 <meta property="og:url" content="http://example.com/2024/02/05/hexo-pics/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="如何解决hexo图片不显示问题（以vscode为例）  新建一个markdown文件hexo-pics.md；其中图片分为截图和复制两种形式。 安装vscode插件Paste Image，设置：  1234basepath&#x3D;$&#123;currentFilePath&#125;&#x2F;hexo-pics path&#x3D;$&#123;currentFilePath&#125;&#x2F; Insert Pattern">
+<meta property="og:description" content="如何解决hexo图片不显示问题（以vscode为例） 新建一个markdown文件hexo-pics.md；其中图片分为截图和复制两种形式。 安装vscode插件Paste Image，设置：1234basepath&#x3D;$&#123;currentFilePath&#125;&#x2F;hexo-pics path&#x3D;$&#123;currentFilePath&#125;&#x2F; Insert Pattern:![">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/2024/02/05/hexo-pics/2024-02-05-21-39-10.png">
 <meta property="og:image" content="http://example.com/2024/02/05/hexo-pics/2024-02-05-21-39-44.png">
@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://example.com/2024/02/05/hexo-pics/2024-02-05-21-55-46.png">
 <meta property="og:image" content="http://example.com/2024/02/05/hexo-pics/2024-02-05-22-03-30.png">
 <meta property="article:published_time" content="2024-02-05T13:30:37.000Z">
-<meta property="article:modified_time" content="2024-02-05T14:04:06.186Z">
+<meta property="article:modified_time" content="2024-02-05T17:30:02.077Z">
 <meta property="article:author" content="Chaowei">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/2024/02/05/hexo-pics/2024-02-05-21-39-10.png">
@@ -194,14 +194,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1>如何解决hexo图片不显示问题（以vscode为例）</h1>
-<ol>
-<li><a target="_blank" rel="noopener" href="http://xn--markdownhexo-pics-ps50a2w37jyr5ioe4av0a.md">新建一个markdown文件hexo-pics.md</a>；其中图片分为截图和复制两种形式。</li>
-<li>安装vscode插件Paste Image，设置：</li>
+        <h1 id="如何解决hexo图片不显示问题（以vscode为例）"><a href="#如何解决hexo图片不显示问题（以vscode为例）" class="headerlink" title="如何解决hexo图片不显示问题（以vscode为例）"></a>如何解决hexo图片不显示问题（以vscode为例）</h1><ol>
+<li>新建一个markdown文件hexo-pics.md；其中图片分为截图和复制两种形式。</li>
+<li>安装vscode插件Paste Image，设置：<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">basepath=$&#123;currentFilePath&#125;/hexo-pics </span><br><span class="line">path=$&#123;currentFilePath&#125;/ </span><br><span class="line"><span class="title class_">Insert</span> <span class="title class_">Pattern</span>:![$&#123;imageFileName&#125;](hexo-pics/$&#123;imageFilePath&#125;$&#123;imageSyntaxSuffix&#125;</span><br><span class="line"><span class="title class_">Name</span> <span class="title class_">Prefix</span>:/</span><br></pre></td></tr></table></figure>
+<img src="/2024/02/05/hexo-pics/2024-02-05-21-39-10.png" alt="2024-02-05-21-39-10.png"><span id="more"></span>
+<img src="/2024/02/05/hexo-pics/2024-02-05-21-39-44.png" alt="2024-02-05-21-39-44.png"></li>
 </ol>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">basepath=$&#123;currentFilePath&#125;/hexo-pics </span><br><span class="line">path=$&#123;currentFilePath&#125;/ </span><br><span class="line"><span class="title class_">Insert</span> <span class="title class_">Pattern</span>:![$&#123;imageFileName&#125;](hexo-pics/$&#123;imageFilePath&#125;$&#123;imageSyntaxSuffix&#125;</span><br><span class="line"><span class="title class_">Name</span> <span class="title class_">Prefix</span>:/</span><br></pre></td></tr></table></figure>
-<p><img src="/2024/02/05/hexo-pics/2024-02-05-21-39-10.png" alt="2024-02-05-21-39-10.png"></p>
-<p><img src="/2024/02/05/hexo-pics/2024-02-05-21-39-44.png" alt="2024-02-05-21-39-44.png"></p>
 <p><img src="/2024/02/05/hexo-pics/2024-02-05-21-40-34.png" alt="2024-02-05-21-40-34.png"></p>
 <ul>
 <li><em>注：basepath和path中的hexo-pics是新建markdown文件名字！！！图片截图或者复制到该文件夹中</em></li>
@@ -210,16 +208,12 @@
 <li>Paste Image截图软件截图后，快捷键Ctrol+Alt+v ，粘贴到markdown中。如下图形式：</li>
 </ol>
 <p><img src="/2024/02/05/hexo-pics/2024-02-05-21-55-46.png" alt="2024-02-05-21-55-46.png"></p>
-<p>4.或者复制图片到hexo-pics文件夹中，与markdown文件名字一直。然后再复制到markdown中。<br>
-5. 文件生成并上传到hexo博客。依次为：</p>
+<p>4.或者复制图片到hexo-pics文件夹中，与markdown文件名字一直。然后再复制到markdown中。<br>5. 文件生成并上传到hexo博客。依次为：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
 <ul>
-<li>
-<p>打开hexo端口，查看博客。<br>
-<img src="/2024/02/05/hexo-pics/2024-02-05-22-03-30.png" alt="2024-02-05-22-03-30.png"></p>
+<li><p>打开hexo端口，查看博客。<br><img src="/2024/02/05/hexo-pics/2024-02-05-22-03-30.png" alt="2024-02-05-22-03-30.png"></p>
 </li>
-<li>
-<p>特此感谢up主的学习经验：<a target="_blank" rel="noopener" href="https://space.bilibili.com/22438886">https://space.bilibili.com/22438886</a></p>
+<li><p>特此感谢up主的学习经验：<a target="_blank" rel="noopener" href="https://space.bilibili.com/22438886">https://space.bilibili.com/22438886</a></p>
 </li>
 </ul>
 
@@ -354,7 +348,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">如何解决hexo图片不显示问题（以vscode为例）</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3hexo%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98%EF%BC%88%E4%BB%A5vscode%E4%B8%BA%E4%BE%8B%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">如何解决hexo图片不显示问题（以vscode为例）</span></a></li></ol>
                     </div>
                 </span>
             </div>

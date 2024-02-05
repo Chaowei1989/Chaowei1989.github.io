@@ -8,19 +8,19 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>hexo-music | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="hexo-music如何设置 1. 打开网易云音乐，https:&#x2F;&#x2F;music.163.com&#x2F;  2. 在themes&#x2F;yilia&#x2F;layout&#x2F;_partial&#x2F;left-col.ejs文件nav标签中添加如下代码;将代码中的加粗部分和刚刚复制的网易云外链代码进行对照，将对应部分进行替换。 123456&lt;!-- 网易云音乐插件 --&gt;&lt;% if (theme.music &amp;a">
+  <meta name="description" content="hexo-music如何设置1. 打开网易云音乐，https:&#x2F;&#x2F;music.163.com&#x2F;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo-music">
 <meta property="og:url" content="http://example.com/2024/02/05/hexo-music/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="hexo-music如何设置 1. 打开网易云音乐，https:&#x2F;&#x2F;music.163.com&#x2F;  2. 在themes&#x2F;yilia&#x2F;layout&#x2F;_partial&#x2F;left-col.ejs文件nav标签中添加如下代码;将代码中的加粗部分和刚刚复制的网易云外链代码进行对照，将对应部分进行替换。 123456&lt;!-- 网易云音乐插件 --&gt;&lt;% if (theme.music &amp;a">
+<meta property="og:description" content="hexo-music如何设置1. 打开网易云音乐，https:&#x2F;&#x2F;music.163.com&#x2F;">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/2024/02/05/hexo-music/2024-02-06-01-18-33.png">
 <meta property="og:image" content="http://example.com/2024/02/05/hexo-music/2024-02-06-01-20-57.png">
 <meta property="og:image" content="http://example.com/2024/02/05/hexo-music/2024-02-06-01-25-06.png">
 <meta property="og:image" content="http://example.com/2024/02/05/hexo-music/2024-02-06-01-25-42.png">
 <meta property="article:published_time" content="2024-02-05T02:52:47.000Z">
-<meta property="article:modified_time" content="2024-02-05T17:27:45.335Z">
+<meta property="article:modified_time" content="2024-02-05T17:29:28.645Z">
 <meta property="article:author" content="Chaowei">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/2024/02/05/hexo-music/2024-02-06-01-18-33.png">
@@ -193,21 +193,22 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1>hexo-music如何设置</h1>
-<h1>1. 打开网易云音乐，<a target="_blank" rel="noopener" href="https://music.163.com/">https://music.163.com/</a></h1>
-<p><img src="/2024/02/05/hexo-music/2024-02-06-01-18-33.png" alt="2024-02-06-01-18-33.png"></p>
-<h1>2. 在themes/yilia/layout/_partial/left-col.ejs文件nav标签中添加如下代码;将代码中的加粗部分和刚刚复制的网易云外链代码进行对照，将对应部分进行替换。</h1>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 网易云音乐插件 --&gt;</span><br><span class="line">&lt;% <span class="keyword">if</span> (theme.<span class="property">music</span> &amp;&amp; theme.<span class="property">music</span>.<span class="property">enable</span>)&#123; %&gt;</span><br><span class="line">	<span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;position:absolute; bottom:120px left:auto; width:85%&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">		<span class="tag">&lt;<span class="name">iframe</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">marginwidth</span>=<span class="string">&quot;0&quot;</span> <span class="attr">marginheight</span>=<span class="string">&quot;0&quot;</span> <span class="attr">width</span>=<span class="string">&quot;240&quot;</span> <span class="attr">height</span>=<span class="string">&quot;52&quot;</span> <span class="attr">src</span>=<span class="string">&quot;//music.163.com/outchain/player?type=2&amp;id=&lt;%=theme.music.id||1334445174%&gt;&amp;auto=&lt;%=theme.music.autoplay?1:0%&gt;&amp;height=32&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+        <h1 id="hexo-music如何设置"><a href="#hexo-music如何设置" class="headerlink" title="hexo-music如何设置"></a>hexo-music如何设置</h1><h1 id="1-打开网易云音乐，https-music-163-com"><a href="#1-打开网易云音乐，https-music-163-com" class="headerlink" title="1. 打开网易云音乐，https://music.163.com/"></a>1. 打开网易云音乐，<a target="_blank" rel="noopener" href="https://music.163.com/">https://music.163.com/</a></h1><p><img src="/2024/02/05/hexo-music/2024-02-06-01-18-33.png" alt="2024-02-06-01-18-33.png"></p>
+<span id="more"></span>
+<h1 id="2-在themes-yilia-layout-partial-left-col-ejs文件nav标签中添加如下代码-将代码中的加粗部分和刚刚复制的网易云外链代码进行对照，将对应部分进行替换。"><a href="#2-在themes-yilia-layout-partial-left-col-ejs文件nav标签中添加如下代码-将代码中的加粗部分和刚刚复制的网易云外链代码进行对照，将对应部分进行替换。" class="headerlink" title="2. 在themes&#x2F;yilia&#x2F;layout&#x2F;_partial&#x2F;left-col.ejs文件nav标签中添加如下代码;将代码中的加粗部分和刚刚复制的网易云外链代码进行对照，将对应部分进行替换。"></a>2. 在themes&#x2F;yilia&#x2F;layout&#x2F;_partial&#x2F;left-col.ejs文件nav标签中添加如下代码;将代码中的加粗部分和刚刚复制的网易云外链代码进行对照，将对应部分进行替换。</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 网易云音乐插件 --&gt;</span><br><span class="line">&lt;% <span class="keyword">if</span> (theme.<span class="property">music</span> &amp;&amp; theme.<span class="property">music</span>.<span class="property">enable</span>)&#123; %&gt;</span><br><span class="line">	<span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;position:absolute; bottom:120px left:auto; width:85%&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">		<span class="tag">&lt;<span class="name">iframe</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">marginwidth</span>=<span class="string">&quot;0&quot;</span> <span class="attr">marginheight</span>=<span class="string">&quot;0&quot;</span> <span class="attr">width</span>=<span class="string">&quot;240&quot;</span> <span class="attr">height</span>=<span class="string">&quot;52&quot;</span> <span class="attr">src</span>=<span class="string">&quot;//music.163.com/outchain/player?type=2&amp;id=&lt;%=theme.music.id||1334445174%&gt;&amp;auto=&lt;%=theme.music.autoplay?1:0%&gt;&amp;height=32&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
 <ol start="3">
-<li>将图中选中部分换成你选中的地址。（比如我选的beyond的歌）<br>
-<img src="/2024/02/05/hexo-music/2024-02-06-01-20-57.png" alt="2024-02-06-01-20-57.png"></li>
+<li>将图中选中部分换成你选中的地址。（比如我选的beyond的歌）<br><img src="/2024/02/05/hexo-music/2024-02-06-01-20-57.png" alt="2024-02-06-01-20-57.png"></li>
 </ol>
-<p><img src="/2024/02/05/hexo-music/2024-02-06-01-25-06.png" alt="2024-02-06-01-25-06.png"><br>
-lia主题配置文件中添加属性</p>
+<p><img src="/2024/02/05/hexo-music/2024-02-06-01-25-06.png" alt="2024-02-06-01-25-06.png"><br>lia主题配置文件中添加属性</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 网易云音乐插件</span><br><span class="line">music:</span><br><span class="line">  enable: true</span><br><span class="line">  #id: 1332647902  # 网易云分享的ID</span><br><span class="line">  autoplay: true  # 是否开启自动播放</span><br></pre></td></tr></table></figure>
-<p><img src="/2024/02/05/hexo-music/2024-02-06-01-25-42.png" alt="2024-02-06-01-25-42.png"><br>
-4. hexo博客生成，上传到github网站。</p>
+<p><img src="/2024/02/05/hexo-music/2024-02-06-01-25-42.png" alt="2024-02-06-01-25-42.png"><br>4. hexo博客生成，上传到github网站。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
 
       
 
@@ -349,7 +350,7 @@ lia主题配置文件中添加属性</p>
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">hexo-music如何设置</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">2.</span> <span class="toc-text">1. 打开网易云音乐，https:&#x2F;&#x2F;music.163.com&#x2F;</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">3.</span> <span class="toc-text">2. 在themes&#x2F;yilia&#x2F;layout&#x2F;_partial&#x2F;left-col.ejs文件nav标签中添加如下代码;将代码中的加粗部分和刚刚复制的网易云外链代码进行对照，将对应部分进行替换。</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#hexo-music%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE"><span class="toc-number">1.</span> <span class="toc-text">hexo-music如何设置</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E6%89%93%E5%BC%80%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%EF%BC%8Chttps-music-163-com"><span class="toc-number">2.</span> <span class="toc-text">1. 打开网易云音乐，https:&#x2F;&#x2F;music.163.com&#x2F;</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E5%9C%A8themes-yilia-layout-partial-left-col-ejs%E6%96%87%E4%BB%B6nav%E6%A0%87%E7%AD%BE%E4%B8%AD%E6%B7%BB%E5%8A%A0%E5%A6%82%E4%B8%8B%E4%BB%A3%E7%A0%81-%E5%B0%86%E4%BB%A3%E7%A0%81%E4%B8%AD%E7%9A%84%E5%8A%A0%E7%B2%97%E9%83%A8%E5%88%86%E5%92%8C%E5%88%9A%E5%88%9A%E5%A4%8D%E5%88%B6%E7%9A%84%E7%BD%91%E6%98%93%E4%BA%91%E5%A4%96%E9%93%BE%E4%BB%A3%E7%A0%81%E8%BF%9B%E8%A1%8C%E5%AF%B9%E7%85%A7%EF%BC%8C%E5%B0%86%E5%AF%B9%E5%BA%94%E9%83%A8%E5%88%86%E8%BF%9B%E8%A1%8C%E6%9B%BF%E6%8D%A2%E3%80%82"><span class="toc-number">3.</span> <span class="toc-text">2. 在themes&#x2F;yilia&#x2F;layout&#x2F;_partial&#x2F;left-col.ejs文件nav标签中添加如下代码;将代码中的加粗部分和刚刚复制的网易云外链代码进行对照，将对应部分进行替换。</span></a></li></ol>
                     </div>
                 </span>
             </div>
